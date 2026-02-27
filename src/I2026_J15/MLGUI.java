@@ -45,7 +45,7 @@ public class MLGUI extends JFrame {
             else if (selected.equals("Distance Based")) factory = new kNNFactory();
             else factory = new LinearRegressionFactory();
 
-            double[][] X = {{1, 1}, {2, 2}, {5, 5}, {6, 6}};
+            double[][] X = {{2, 2}, {3, 3}, {6, 6}, {7, 7}};
             int[] y = {0, 0, 1, 1};
 
             Client app = new Client(factory);
